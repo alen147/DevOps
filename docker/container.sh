@@ -1,2 +1,4 @@
 #!/bin/bash
-docker run -d -p 8083:80 --name git-container 
+docker ps
+docker run -d -p 8083:80 --name git-container nodeimage
+docker ps
